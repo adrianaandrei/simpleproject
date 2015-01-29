@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class AboutMeActivity extends Activity {
    
     private boolean fuzzyImage = false;
+	private UKTaxes ukTax = new UKTaxes();
 
 	/** Called when the activity is first created. */
     @Override
