@@ -6,8 +6,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+/**
+@author aandrei
+**/
 public class AboutMeActivity extends Activity {
    
+    private boolean fuzzyImage = false;
 
 	/** Called when the activity is first created. */
     @Override
@@ -17,15 +21,13 @@ public class AboutMeActivity extends Activity {
     }
     
     public void showAboutMessage(View v) {
-    	Toast.makeText(this, "Eu baby mic", 
+    	Toast.makeText(this, "About me!", 
     			Toast.LENGTH_LONG).show();
     }
     public void showMyMessage(View v) {
-    	Toast.makeText(this, "Baby mic is the super-smart :)", 
+    	Toast.makeText(this, "Hello!", 
     			Toast.LENGTH_LONG).show();
     }
-    
-    private boolean fuzzyImage = false;
     
     public void flipImage(View v) {
     	ImageView portrait = (ImageView) findViewById(R.id.faceImageView);
