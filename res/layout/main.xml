@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:textSize="28dp" android:text="Albert Einstein"
+		android:id="@+id/textView1" android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+	</TextView>
+	<ImageView android:id="@+id/faceImageView"
+		android:onClick="flipImage" 
+		android:src="@drawable/baby_mic"
+		android:layout_weight="1"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content">
+	</ImageView>
+
+	<Button android:id="@+id/aboutMeButton" android:layout_height="wrap_content"
+		android:onClick="showAboutMessage" android:layout_width="wrap_content"
+		android:text="About Baby mic">
+	</Button>
+
+	<Button
+	    android:id="@+id/myButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="showMyMessage"
+	    android:text="My Message" />
+
+</LinearLayout>
