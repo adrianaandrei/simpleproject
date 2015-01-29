@@ -32,10 +32,10 @@ public class AboutMeActivity extends Activity {
     public void flipImage(View v) {
     	ImageView portrait = (ImageView) findViewById(R.id.faceImageView);
     	if (fuzzyImage) {
-    		portrait.setImageResource(R.drawable.baby_mic);
+    		portrait.setImageResource(R.drawable.image);
     	}
     	else {
-    		portrait.setImageResource(R.drawable.eushor);
+    		portrait.setImageResource(R.drawable.image_resource);
     	}
     	fuzzyImage = !fuzzyImage; // flip the state for next time
     }
